@@ -30,9 +30,13 @@ for (const order of ordersSet) {
 }
 
 //Example
-
+//Regular array
 const staff = ["Waiter", "Chef", "Waiter", "Manager", "Chef", "Waiter"];
 
+//Creating an array out of Set
 const setStaff = [...new Set(staff)];
 
 console.log(setStaff);
+
+// String are itterable as well
+console.log(new Set("AhmedAliHusseinAlubaidi").size);
