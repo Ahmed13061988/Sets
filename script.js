@@ -15,4 +15,6 @@ console.log(new Set("Ahmed"));
 
 console.log(ordersSet.size);
 
-console.log(ordersSet.has("Pizza"));
+console.log(ordersSet.has("pizza"));
+
+console.log(ordersSet.add("Gralic Bread", "Garlic Bread"));
