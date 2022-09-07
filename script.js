@@ -10,3 +10,5 @@ const ordersSet = new Set([
 ]);
 
 console.log(ordersSet);
+
+console.log(new Set("Ahmed"));
