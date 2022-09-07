@@ -33,6 +33,6 @@ for (const order of ordersSet) {
 
 const staff = ["Waiter", "Chef", "Waiter", "Manager", "Chef", "Waiter"];
 
-const setStaff = new Set(staff);
+const setStaff = [...new Set(staff)];
 
 console.log(setStaff);
