@@ -12,3 +12,7 @@ const ordersSet = new Set([
 console.log(ordersSet);
 
 console.log(new Set("Ahmed"));
+
+console.log(ordersSet.size);
+
+console.log(ordersSet.has("Pizza"));
