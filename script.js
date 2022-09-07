@@ -22,5 +22,17 @@ console.log(ordersSet.add("Gralic Bread", "Garlic Bread"));
 ordersSet.delete("Pizza");
 console.log(ordersSet);
 
-ordersSet.clear();
-console.log(ordersSet);
+// ordersSet.clear();
+// console.log(ordersSet);
+
+for (const order of ordersSet) {
+  console.log(order);
+}
+
+//Example
+
+const staff = ["Waiter", "Chef", "Waiter", "Manager", "Chef", "Waiter"];
+
+const setStaff = new Set(staff);
+
+console.log(setStaff);
