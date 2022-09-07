@@ -18,3 +18,6 @@ console.log(ordersSet.size);
 console.log(ordersSet.has("pizza"));
 
 console.log(ordersSet.add("Gralic Bread", "Garlic Bread"));
+
+ordersSet.delete("Pizza");
+console.log(ordersSet);
